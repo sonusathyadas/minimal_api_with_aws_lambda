@@ -13,9 +13,9 @@
     
     ```dotnetcli
     cd .\TodoApi\
-    dotnet add TodoApi package Microsoft.EntityFrameworkCore.InMemory --version 6.0.12
-	dotnet add TodoApi package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore --version 6.0.12
-	dotnet add TodoApi package Swashbuckle.AspNetCore --version 6.4.0
+    dotnet add package Microsoft.EntityFrameworkCore.InMemory --version 6.0.12
+	dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore --version 6.0.12
+	dotnet add package Swashbuckle.AspNetCore --version 6.4.0
     ```
 
 4) Create a folder `Models` in the project directory and add a class file - `Todo.cs` - to it. Add the following code to it.
